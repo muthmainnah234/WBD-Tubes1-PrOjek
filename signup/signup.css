@@ -1,0 +1,117 @@
+/* Bordered form */
+
+html {
+    background-color: #FFFFFF;
+}
+body {
+        width: 40%;
+        height: 95%;
+        margin-left:auto;
+        margin-right:auto;
+        margin-top:auto;
+        margin-bottom:auto;
+        padding: 0;
+        background-color: #79d03b;
+        border: 10px solid #007c32;
+        border-radius: 50px;
+    }
+
+form {
+    border: 0px solid #f1f1f1;
+}
+
+/* Full-width inputs */
+input[type=checkbox] {
+    height 18px;
+    padding: 5px 5px;
+    margin: 3px 20px;
+    /*display: inline-block;*/
+    border: 0px solid #ccc;
+    clear: both;
+    position: relative;
+    float:left;
+}
+
+input[id=email], input[id=username]{
+    width: 40% !important;
+}
+
+input[type=text], input[type=password]{
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 20px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    clear: both;
+    position: relative;
+    /*float:right;*/
+    /*alignright*/
+}
+
+
+label{
+    width: 30%;
+    padding: 12px 0px;
+    margin: 8px 20px;
+    display: inline-block;
+    color: #007c38;
+    font-size: 17px
+}
+
+/* Set a style for all buttons */
+button {
+    background-color: #63f100;
+    color: #363636;
+    padding: 10px 10px;
+    margin: 10px 25px;
+    border: 3px solid black;
+    border-radius: 10px;
+    cursor: pointer;
+    width: 20%;
+    clear: both;
+    position: relative;
+    float:right;
+    font-size: 18px;
+}
+
+/* Add a hover effect for buttons */
+button:hover {
+    opacity: 0.8;
+}
+
+.text1{
+    margin:0px;
+    padding: 15px;
+    font-style: italic;
+    text-decoration: underline;
+    color: #368d3e;
+
+}
+
+a:hover {
+    color: #007c31;
+}
+
+/* Center the avatar image inside this container */
+.imgcontainer {
+    text-align: center;
+    margin: 5px 0 0px 0;
+}
+
+img.logo1{
+    width:90%
+}
+
+/* Add padding to containers */
+.container {
+    padding: 16px;
+}
+
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+    span.psw {
+        display: block;
+        float: none;
+}

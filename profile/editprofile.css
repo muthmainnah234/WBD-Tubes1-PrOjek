@@ -1,0 +1,159 @@
+body {
+	width: 35%;
+	height: 60%;
+	margin: auto;
+	padding-top: 10%;
+}
+.title {
+	font-size: 30px;
+	font-weight: bold;
+	padding-bottom: 20px;
+}
+.editdp {
+	width: 100%;
+	height: 150px;
+	display: table-row;
+}
+.showpic img {
+	width: 140px;
+	height: 140px;
+	float: left;
+	border-width: 1px 2px 2px 1px;
+	border-style: solid;
+	padding: 2px 0 0 2px;
+	margin-right: 30px;
+}
+.showpic {
+	width: 170px;
+	display: table-cell;
+}
+.uploadpic {
+	width: 100%;
+	height: 150px;
+	display: table-cell;
+	vertical-align: middle;
+}
+.uploadpic input {
+    width: 75%;
+    display: inline-block;
+}
+.edit {
+	display: table-row;
+	line-height: 30px;
+}
+.fieldname {
+	display: table-cell;
+	vertical-align: middle;
+	min-width: 170px;
+	height: 100%;
+}
+.field {
+	display: table-cell;
+	width: 100%;
+	height: 100%;
+}
+.field input {
+    width: 100%;
+    padding: 5px;
+    margin: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;  
+}
+
+.editstatus {
+	display: inline-block;
+}
+.submit {
+	margin-top: 20px;
+}
+.back {
+	border: 1px solid black;
+	float: left;
+	border-radius: 10%;
+	padding: 5px 10px;
+	background-color: #d50027;
+	color: black;
+}
+.save {
+	border: 1px solid black;
+	float: right;
+	border-radius: 10%;
+	padding: 5px 10px;
+	background-color: #82d800;
+	color: black;
+}
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 50px;
+  height: 30px;
+  float: right;
+}
+/* Hide default HTML checkbox */
+.switch input {display:none;}
+/* The slider */
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: .4s;
+  transition: .4s;
+  border-radius: 30px;
+}
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 22px;
+  width: 22px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+  border-radius: 50%;
+}
+input:checked + .slider {
+  background-color: #117d11;
+}
+input:focus + .slider {
+  box-shadow: 0 0 1px #117d11;
+}
+input:checked + .slider:before {
+  -webkit-transform: translateX(21px);
+  -ms-transform: translateX(21px);
+  transform: translateX(21px);
+}
+
+.invisible {
+	width: 0.1px;
+	height: 0.1px;
+	opacity: 0;
+	overflow: hidden;
+	position: absolute;
+	z-index: -1;
+	cursor:pointer;
+}
+.inputfile{
+    font-size: 10px;
+    color: black;
+    width: 45px;
+    margin: auto;
+    background-color: #d7d7d7;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 2px;
+    cursor: pointer;
+    padding: 2px;
+}
+
+.inputfile:focus,
+.inputfile:hover {
+    background-color: grey;
+}

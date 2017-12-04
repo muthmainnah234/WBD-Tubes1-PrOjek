@@ -1,0 +1,95 @@
+body {
+	width: 35%;
+	height: 60%;
+	margin: auto;
+	padding-top: 10%;
+}
+.title {
+	font-size: 30px;
+	font-weight: bold;
+	padding-bottom: 20px;
+}
+table {
+	width: 100%;
+	border-collapse: collapse;
+	margin-bottom: 30px;
+}
+td, th, tr, table {
+	border: 1px solid grey;
+	border-collapse: collapse;
+}
+.edit-save {
+	width: 20px;
+	height: 20px;
+	margin-left: 15px;
+	margin-right: 20px;
+}
+#delete {
+	width: 20px;
+	height: 20px;
+}
+th#id {
+	width: 10%;
+}
+th#loc {
+	width: 70%;
+}
+th#act {
+	width: 20%;
+}
+.head {
+	font-size: 25px;
+	font-weight: bold;
+	padding-bottom: 20px;
+}
+.inputbox {
+	display: inline-block;
+	width: 80%;
+}
+.inputbox input {
+    width: 100%;
+    padding: 5px;
+    margin: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;  
+}
+.add {
+	border: 1px solid black;
+	border-radius: 10%;
+	padding: 5px 10px;
+	background-color: #82d800;
+	color: black;
+}
+.backbutton {
+	padding-top: 30px;
+}
+.back {
+	border: 1px solid black;
+	border-radius: 10%;
+	padding: 5px 10px;
+	background-color: #d50027;
+	color: black;
+}
+a {
+	text-decoration: none;
+}
+#number {
+	padding-left: 10px;
+}
+#data {
+	padding-left: 10px;
+	padding-right: 10px;
+}
+.loc-edit {
+    width: 100%;
+    margin: 0;
+    border: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box; 
+}
